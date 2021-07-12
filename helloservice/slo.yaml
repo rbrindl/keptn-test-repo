@@ -20,7 +20,7 @@ objectives:
   - sli: go_routines
     pass:
       - criteria:
-          - "<=100"
+          - "<=5"
 total_score:
   pass: "99%"
   warning: "75%"
