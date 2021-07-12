@@ -8,7 +8,7 @@ objectives:
   - sli: http_response_time_seconds_main_page_sum
     pass:
       - criteria:
-          - "<=0.01"
+          - "<=0.011"
     warning:
       - criteria:
           - "<=0.005"
